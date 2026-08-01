@@ -1,23 +1,30 @@
 # 🌱 EcoLearn
 
-## Descripción
-
-EcoLearn es una página web educativa inspirada en la mecánica de Duolingo. Su objetivo es enseñar a los usuarios sobre el cambio climático mediante lecciones interactivas, preguntas, niveles y un sistema de progreso que haga el aprendizaje más entretenido.
-
-Este proyecto fue desarrollado como parte de un hackathon.
+EcoLearn es una página web educativa diseñada para enseñar sobre el cambio climático mediante lecciones interactivas, cuestionarios y un sistema de progreso que motiva a los usuarios a seguir aprendiendo.
 
 ---
 
-## Objetivos
+## Características
 
-- Concientizar sobre el cambio climático.
-- Enseñar conceptos ambientales de forma interactiva.
-- Motivar a los usuarios mediante un sistema de niveles y recompensas.
-- Hacer que aprender sea divertido y accesible.
+### Implementadas
+- Página de inicio
+- Inicio de sesión (interfaz)
+- Registro de usuarios (interfaz)
+- Página de lecciones
+- Página de cuestionarios
+- Perfil de usuario (interfaz)
+
+### En proceso
+- Sistema de inicio de sesión funcional
+- Registro de usuarios funcional
+- Corrección automática de cuestionarios
+- Sistema de progreso
+- Sistema de niveles y recompensas
+- Almacenamiento del progreso del usuario
 
 ---
 
-## Tecnologías utilizadas
+## Tecnologías
 
 - HTML5
 - CSS3
@@ -27,51 +34,44 @@ Este proyecto fue desarrollado como parte de un hackathon.
 
 ---
 
-## Estructura del proyecto
+## Requisitos
 
-```
-Proyecto/
-│
-├── index.html
-├── login.html
-├── register.html
-├── lesson.html
-├── quiz.html
-├── profile.html
-│
-├── css/
-├── js/
-├── img/
-│
-└── README.md
-```
+- Visual Studio Code
+- Extensión Live Server
+- Navegador web (Google Chrome, Microsoft Edge, Firefox, etc.)
 
 ---
 
-## Estado del proyecto
+## Instalación
 
-🚧 En desarrollo.
+```bash
+git clone https://github.com/usuario/EcoLearn.git
 
-Funciones planeadas:
+cd EcoLearn
+```
 
-- Inicio de sesión
-- Registro de usuarios
-- Lecciones interactivas
-- Sistema de preguntas
-- Experiencia (XP)
-- Sistema de niveles
-- Perfil del usuario
+Abre la carpeta en Visual Studio Code y ejecuta `index.html` utilizando la extensión **Live Server**.
 
 ---
 
-## Integrantes del equipo
+## Uso
+
+1. Abrir la página principal.
+2. Crear una cuenta o iniciar sesión.
+3. Explorar las lecciones disponibles.
+4. Resolver los cuestionarios.
+5. Consultar el perfil del usuario.
+
+---
+
+## Capturas de pantalla
+
+*(Aquí se agregarán las capturas de la aplicación cuando el proyecto esté más avanzado.)*
+
+---
+
+## Autores
 
 - Amelia Ceballos
 - Joaquín Loayza
 - Alejo Aguirre
-
----
-
-## Licencia
-
-Este proyecto fue desarrollado con fines educativos.
