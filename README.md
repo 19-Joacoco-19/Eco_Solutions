@@ -66,13 +66,12 @@ Funciones planeadas:
 
 ## Integrantes del equipo
 
-- __________________________
-- __________________________
-- __________________________
-- __________________________
+- Amelia Ceballos
+- Joaquín Loayza
+- Alejo Aguirre
 
 ---
 
 ## Licencia
 
-Este proyecto fue desarrollado con fines educativos para un hackathon.
+Este proyecto fue desarrollado con fines educativos.
