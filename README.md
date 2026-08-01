@@ -1,6 +1,6 @@
-# 🌱 EcoLearn
+# 🌱 Eco Solutions
 
-EcoLearn es una página web educativa diseñada para enseñar sobre el cambio climático mediante lecciones interactivas, cuestionarios y un sistema de progreso que motiva a los usuarios a seguir aprendiendo.
+Eco Solutions es una página web educativa diseñada para enseñar sobre el cambio climático mediante lecciones interactivas, cuestionarios y un sistema de progreso que motiva a los usuarios a seguir aprendiendo.
 
 ---
 
