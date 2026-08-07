@@ -1,4 +1,5 @@
 const botones = document.querySelectorAll(".answer");
+const resultado = document.getElementById("resultado");
 
 botones.forEach(boton => {
 
@@ -6,11 +7,15 @@ botones.forEach(boton => {
 
         if(this.dataset.correct === "true"){
 
-            alert("¡Correcto! +10 XP");
+            actualizarRacha();
+
+            resultado.textContent = "✅ ¡Correcto! Has ganado 10 XP.";
+            resultado.style.color = "green";
 
         }else{
 
-            alert("Incorrecto. Inténtalo otra vez.");
+            resultado.textContent = "❌ Incorrecto. Inténtalo de nuevo.";
+            resultado.style.color = "red";
 
         }
 
