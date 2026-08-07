@@ -1,88 +1,24 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
+const botones = document.querySelectorAll(".answer");
+const resultado = document.getElementById("resultado");
 
-body{
+botones.forEach(boton => {
 
-    background:#e8f8e8;
+    boton.addEventListener("click", function(){
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+        if(this.dataset.correct === "true"){
 
-    height:100vh;
+            actualizarRacha();
 
-}
+            resultado.textContent = "✅ ¡Correcto! Has ganado 10 XP.";
+            resultado.style.color = "green";
 
-.quiz-box{
+        }else{
 
-    background:white;
+            resultado.textContent = "❌ Incorrecto. Inténtalo de nuevo.";
+            resultado.style.color = "red";
 
-    width:500px;
+        }
 
-    padding:40px;
+    });
 
-    border-radius:15px;
-
-    box-shadow:0 0 15px rgba(0,0,0,.15);
-
-    text-align:center;
-
-}
-
-h1{
-
-    color:#2E7D32;
-
-    margin-bottom:20px;
-
-}
-
-p{
-
-    margin-bottom:25px;
-
-    font-size:18px;
-
-}
-
-.answer{
-
-    width:100%;
-
-    padding:12px;
-
-    margin-bottom:12px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#43A047;
-
-    color:white;
-
-    cursor:pointer;
-
-    font-size:16px;
-
-}
-
-.answer:hover{
-
-    background:#2E7D32;
-
-}
-
-a{
-
-    color:#2E7D32;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
-}
+});
